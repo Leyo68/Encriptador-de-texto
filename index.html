@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/logoAlura.svg" alt="Logo de Alura">
+        <h1>Bienvenido/a a su encriptador de texto</h1>
+    </header>
+    <main>
+        <section>
+            <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btnEncriptar" onclick = "btnEncriptar()" >Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+                
+
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" id="" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+
+                <div id="popup" class="popup">
+                    <p>¡Mensaje copiado!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="rotapie">© 2024 Leodegario García Ramírez. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
