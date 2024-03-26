@@ -6,6 +6,6 @@
   <p>Proyecto desarrollado con HTML, CSS Y JavaScript para encriptar/desencriptar textos.</p>
 
   <details>
-    <summary><b>Puedes utilizarlo con tus amig@s para enviarse mensajes secretos!</b> (expande para detalles)</summary>
+    <summary><b>Puedes utilizarlo con tus amig@s para enviarse mensajes secretos!</b></summary>
   </details>
 </div>
